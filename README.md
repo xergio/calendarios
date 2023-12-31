@@ -1,8 +1,6 @@
-Generador de calendarios de Comunidades Autónomas a partir 
-de una fuente, inicialmente el BOE.
+Generador de calendarios de Comunidades Autónomas a partir de una fuente, inicialmente el BOE.
 
-En la carpeta [Calendarios]() están en formato `.ics` para 
-descargar.
+En la carpeta [dist/](dist) están en formato `.ics` para descargar.
 
 # BOEs
 
