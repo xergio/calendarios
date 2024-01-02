@@ -33,6 +33,11 @@ for ca in table.find('thead').find_all('tr')[1].find_all('th'):
     cas.append(re.sub(r' \(\d+\)', '', ca.text.strip()))
     calendar[cas[-1]] = []
 
+# Extra days
+# https://www.madrid.es/portales/munimadrid/es/Inicio/Actividad-economica-y-hacienda/Empresa-y-comercio/Calendario-oficial-laboral-y-de-dias-inhabiles-y-festivos-2024-para-Madrid/?vgnextfmt=default&vgnextoid=278557e8f60fa810VgnVCM2000001f4a900aRCRD&vgnextchannel=78da6d5ef88fe410VgnVCM1000000b205a0aRCRD
+calendar['Com. Madrid'].append(('San Isidro Labrador.', '2024-05-15'))
+calendar['Com. Madrid'].append(('Nuestra Señora de La Almudena.', '2024-11-09'))
+
 # print(cas)
 
 # fixed months as BOE representation
